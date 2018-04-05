@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Relógio</title>
+	<style>
+		.clock > div {
+			text-align: center;
+			font-size: 90px;
+			font-weight: 700;
+			color: #1E90FF;
+			padding: 30px;
+			float: left;
+			box-shadow: 1px 5px 5px #c3c3c3;
+			font-family: "trebuchet ms";
+			position: relative;
+		}
+
+		.displayName {
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="clock">
+		<div>	
+			<div id = "horas">00</div>
+			<div class = "displayName">Horas</div>
+		</div>
+
+		<div>
+			<div id = "minutos">00</div>
+			<div class = "displayName">Minutos</div>
+		</div>
+
+		<div>
+			<div id = "segundos">00</div>
+			<div class = "displayName">Segundos</div>
+		</div>
+	</div>
+
+	<script src = "clock.js"></script>
+	
+</body>
+</html>
